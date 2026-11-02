@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+  <title>Savory & Co. | Modern Dining Experience</title>
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Google Fonts: Inter & Playfair Display -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <!-- Separate CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ========== TOP BAR ========== -->
+  <div class="top-bar">
+    <div class="container top-bar-content">
+      <div class="top-bar-info">
+        <span><i class="fas fa-map-marker-alt"></i> 123 Culinary Lane, Downtown</span>
+        <span><i class="fas fa-phone-alt"></i> +1 (555) 789-0123</span>
+      </div>
+      <div class="top-bar-hours">
+        <span><i class="fas fa-clock"></i> Open Today: 11:00 AM – 11:00 PM</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== HEADER / NAVBAR ========== -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#home" class="logo">
+        <span class="logo-icon"><i class="fas fa-utensils"></i></span>
+        <span class="logo-text">Savory <span>&</span> Co.</span>
+      </a>
+      <nav class="navbar">
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#menu" class="nav-link">Menu</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+          <li><a href="#reservation" class="nav-link">Reservation</a></li>
+        </ul>
+        <div class="nav-cta">
+          <a href="#reservation" class="btn btn-primary btn-sm">Book a Table</a>
+        </div>
+        <div class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========== HERO SECTION ========== -->
+    <section id="home" class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div class="hero-text">
+          <span class="hero-badge"><i class="fas fa-star"></i> Voted Best New Restaurant 2025</span>
+          <h1>A Taste of <span class="highlight">Excellence</span> in Every Bite</h1>
+          <p>Experience modern American cuisine crafted from locally sourced ingredients. Our seasonal menu and craft cocktails are designed to delight your senses.</p>
+          <div class="hero-buttons">
+            <a href="#reservation" class="btn btn-primary">Reserve a Table <i class="fas fa-arrow-right"></i></a>
+            <a href="#menu" class="btn btn-outline-light">Explore Menu</a>
+          </div>
+          <div class="hero-highlights">
+            <div class="hero-highlight">
+              <i class="fas fa-award"></i>
+              <div><strong>Michelin</strong><br>Recommended</div>
+            </div>
+            <div class="hero-highlight">
+              <i class="fas fa-leaf"></i>
+              <div><strong>Farm-to-Table</strong><br>Fresh Daily</div>
+            </div>
+            <div class="hero-highlight">
+              <i class="fas fa-wine-glass"></i>
+              <div><strong>Craft Cocktails</strong><br>Curated Bar</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-plate">
+            <i class="fas fa-drumstick-bite"></i>
+          </div>
+          <div class="hero-badge-card">
+            <i class="fas fa-fire"></i>
+            <div><strong>Chef's Special</strong><br>Truffle Risotto</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== INFO STRIP ========== -->
+    <section class="info-strip">
+      <div class="container info-strip-grid">
+        <div class="info-item">
+          <i class="fas fa-clock"></i>
+          <div><h4>Opening Hours</h4><p>Mon–Sun: 11 AM – 11 PM</p></div>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-truck"></i>
+          <div><h4>Delivery Available</h4><p>Order online for pickup</p></div>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-users"></i>
+          <div><h4>Private Events</h4><p>Up to 50 guests</p></div>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-wifi"></i>
+          <div><h4>Free Wi-Fi</h4><p>Stay connected while you dine</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section id="about" class="about section">
+      <div class="container about-grid">
+        <div class="about-visual">
+          <div class="about-image main">
+            <i class="fas fa-utensils"></i>
+          </div>
+          <div class="about-image small top">
+            <i class="fas fa-wine-bottle"></i>
+          </div>
+          <div class="about-image small bottom">
+            <i class="fas fa-cake-candles"></i>
+          </div>
+          <div class="about-experience">
+            <strong>15+</strong>
+            <span>Years of Culinary<br>Excellence</span>
+          </div>
+        </div>
+        <div class="about-text">
+          <span class="section-tag">Our Story</span>
+          <h2>Where Passion Meets <span class="highlight">Flavor</span></h2>
+          <p>Founded in 2010 by Chef Marco Rossi, Savory & Co. began as a small neighborhood bistro with a big dream: to create a dining experience that feels both luxurious and welcoming.</p>
+          <p>Today, our kitchen is led by a team of award-winning chefs who share a deep commitment to sustainability, seasonality, and the art of hospitality. Every dish tells a story — from the local farms we partner with to the craft cocktails shaken at our bar.</p>
+          <div class="about-features">
+            <div class="about-feature"><i class="fas fa-check-circle"></i> Locally sourced ingredients</div>
+            <div class="about-feature"><i class="fas fa-check-circle"></i> Seasonal tasting menus</div>
+            <div class="about-feature"><i class="fas fa-check-circle"></i> Extensive wine selection</div>
+            <div class="about-feature"><i class="fas fa-check-circle"></i> Vegetarian & vegan options</div>
+          </div>
+          <div class="about-signature">
+            <i class="fas fa-signature"></i>
+            <div><strong>Marco Rossi</strong><br><span>Executive Chef & Founder</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== MENU SECTION ========== -->
+    <section id="menu" class="menu section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Our Menu</span>
+          <h2>Crafted With <span class="highlight">Care</span></h2>
+          <p>Seasonal dishes prepared with the finest local ingredients. Explore our signature selections.</p>
+        </div>
+
+        <!-- Menu Tabs -->
+        <div class="menu-tabs" id="menuTabs">
+          <button class="menu-tab active" data-category="starters">Starters</button>
+          <button class="menu-tab" data-category="mains">Main Courses</button>
+          <button class="menu-tab" data-category="desserts">Desserts</button>
+          <button class="menu-tab" data-category="drinks">Drinks</button>
+        </div>
+
+        <!-- Starters -->
+        <div class="menu-grid active" data-category="starters">
+          <div class="menu-item">
+            <div class="menu-item-icon"><i class="fas fa-cheese"></i></div>
+            <div class="menu-item-info">
+              <div class="menu-item-header">
+                <h3>Truffle Arancini</h3>
+                <span class="menu-price">$14</span>
+              </div>
+              <p>Crispy risotto balls with black truffle, mozzarella, and a saffron aioli.</p>
+              <span class="menu-tag">Vegetarian</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-icon"><i class="fas fa-fish"></i></div>
+            <div class="menu-item-info">
+              <div class="menu-item-header">
+                <h3>Tuna Tartare</h3>
+                <span class="menu-price">$18</span>
+              </div>
+              <p>Fresh yellowfin tuna, avocado, citrus soy, and crispy wontons.</p>
+              <span class="menu-tag">Signature</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-icon"><i class="fas fa-leaf"></i></div>
+            <div class="menu-item-info">
+              <div class="menu-item-header">
+                <h3>Burrata & Heirloom</h3>
+                <span class="menu-price">$16</span>
+              </div>
+              <p>Creamy burrata, heirloom tomatoes, basil oil, aged balsamic, and sourdough.</p>
+              <span class="menu-tag">Vegetarian</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-icon"><i class="fas fa-shrimp"></i></div>
+            <div class="menu-item-info">
+              <div class="menu-item-header">
+                <h3>Garlic Butter Shrimp</h3>
+                <span class="menu-price">$19</span>
+              </div>
+              <p>Pan-seared shrimp in garlic butter, lemon, chili flakes, and grilled bread.</p>
+              <span class="menu-tag">Gluten-Free Option</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mains -->
+        <div class="menu-grid" data-category="mains">
+          <div class="menu-item">
+            <div class="menu-item-icon"><i class="fas fa-drumstick-bite"></i></div>
+            <div class="menu-item-info">
+              <div class="menu-item-header">
+                <h3>Truffle Risotto</h3>
+                <span class="menu-price">$32</span>
+              </div>
+              <p>Acquerello rice, wild mushrooms, parmesan, and shaved black truffle.</p>
+              <span class="menu-tag">Chef's Special</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-icon"><i class="fas fa-drumstick-bite"></i></div>
+            <div class="menu-item-info">
+              <div class="menu-item-header">
+                <h3>Herb-Crusted Lamb</h3>
+                <span class="menu-price">$38</span>
+              </div>
+              <p>Rack of lamb with rosemary crust, potato purée, and red wine reduction.</p>
+              <span class="menu-tag">Signature</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-icon"><i class="fas fa-fish"></i></div>
+            <div class="menu-item-info">
+              <div class="menu-item-header">
+                <h3>Pan-Seared Sea Bass</h3>
+                <span class="menu-price">$34</span>
+              </div>
+              <p>Chilean sea bass, saffron broth, fingerling potatoes, and micro greens.</p>
+              <span class="menu-tag">Gluten-Free</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-icon"><i class="fas fa-seedling"></i></div>
+            <div class="menu-item-info">
+              <div class="menu-item-header">
+                <h3>Wild Mushroom Pasta</h3>
+                <span class="menu-price">$28</span>
+              </div>
+              <p>Handmade tagliatelle, wild mushroom ragù, thyme, and pecorino.</p>
+              <span class="menu-tag">Vegetarian</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Desserts -->
+        <div class="menu-grid" data-category="desserts">
+          <div class="menu-item">
+            <div class="menu-item-icon"><i class="fas fa-cake-candles"></i></div>
+            <div class="menu-item-info">
+              <div class="menu-item-header">
+                <h3>Tiramisu Classico</h3>
+                <span class="menu-price">$12</span>
+              </div>
+              <p>Espresso-soaked ladyfingers, mascarpone cream, and cocoa dust.</p>
+              <span class="menu-tag">Signature</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-icon"><i class="fas fa-cookie"></i></div>
+            <div class="menu-item-info">
+              <div class="menu-item-header">
+                <h3>Chocolate Fondant</h3>
+                <span class="menu-price">$14</span>
+              </div>
+              <p>Warm dark chocolate cake, vanilla bean ice cream, and raspberry coulis.</p>
+              <span class="menu-tag">Vegetarian</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-icon"><i class="fas fa-lemon"></i></div>
+            <div class="menu-item-info">
+              <div class="menu-item-header">
+                <h3>Lemon Tart</h3>
+                <span class="menu-price">$11</span>
+              </div>
+              <p>Buttery tart shell, lemon curd, torched meringue, and fresh berries.</p>
+              <span class="menu-tag">Vegetarian</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-icon"><i class="fas fa-ice-cream"></i></div>
+            <div class="menu-item-info">
+              <div class="menu-item-header">
+                <h3>Affogato</h3>
+                <span class="menu-price">$9</span>
+              </div>
+              <p>Vanilla bean gelato drowned in a shot of hot espresso.</p>
+              <span class="menu-tag">Gluten-Free</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Drinks -->
+        <div class="menu-grid" data-category="drinks">
+          <div class="menu-item">
+            <div class="menu-item-icon"><i class="fas fa-wine-glass"></i></div>
+            <div class="menu-item-info">
+              <div class="menu-item-header">
+                <h3>Barrel-Aged Negroni</h3>
+                <span class="menu-price">$16</span>
+              </div>
+              <p>Gin, Campari, sweet vermouth aged in oak for 60 days.</p>
+              <span class="menu-tag">Signature Cocktail</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-icon"><i class="fas fa-martini-glass"></i></div>
+            <div class="menu-item-info">
+              <div class="menu-item-header">
+                <h3>Lavender Martini</h3>
+                <span class="menu-price">$15</span>
+              </div>
+              <p>Vodka, lavender syrup, lemon, and a hint of crème de violette.</p>
+              <span class="menu-tag">House Favourite</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-icon"><i class="fas fa-wine-bottle"></i></div>
+            <div class="menu-item-info">
+              <div class="menu-item-header">
+                <h3>Sommelier's Red</h3>
+                <span class="menu-price">$14 / glass</span>
+              </div>
+              <p>Rotating selection of old-world reds, handpicked by our sommelier.</p>
+              <span class="menu-tag">Wine</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-icon"><i class="fas fa-mug-hot"></i></div>
+            <div class="menu-item-info">
+              <div class="menu-item-header">
+                <h3>Artisan Espresso</h3>
+                <span class="menu-price">$5</span>
+              </div>
+              <p>Single-origin espresso, expertly pulled, with a rich crema.</p>
+              <span class="menu-tag">Coffee</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-cta">
+          <p>Prices exclude tax & gratuity. Menu changes seasonally.</p>
+          <a href="#reservation" class="btn btn-primary">Reserve Your Table <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== GALLERY SECTION ========== -->
+    <section id="gallery" class="gallery section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Gallery</span>
+          <h2>A Glimpse of <span class="highlight">Savory & Co.</span></h2>
+          <p>Step inside our world — from the open kitchen to the candlelit dining room.</p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item tall">
+            <i class="fas fa-utensils"></i>
+            <span class="gallery-label">The Open Kitchen</span>
+          </div>
+          <div class="gallery-item">
+            <i class="fas fa-wine-glass"></i>
+            <span class="gallery-label">Craft Cocktail Bar</span>
+          </div>
+          <div class="gallery-item">
+            <i class="fas fa-drumstick-bite"></i>
+            <span class="gallery-label">Signature Dishes</span>
+          </div>
+          <div class="gallery-item wide">
+            <i class="fas fa-candle-holder"></i>
+            <span class="gallery-label">Intimate Dining Room</span>
+          </div>
+          <div class="gallery-item">
+            <i class="fas fa-cake-candles"></i>
+            <span class="gallery-label">Pastry & Desserts</span>
+          </div>
+          <div class="gallery-item">
+            <i class="fas fa-leaf"></i>
+            <span class="gallery-label">Fresh Ingredients</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS ========== -->
+    <section id="testimonials" class="testimonials section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Guest Reviews</span>
+          <h2>What Our <span class="highlight">Guests Say</span></h2>
+          <p>Don't just take our word for it — hear from our diners.</p>
+        </div>
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="testimonial-quote"><i class="fas fa-quote-left"></i></div>
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p>"An unforgettable dining experience. The truffle risotto was absolute perfection, and the service was warm and attentive without being intrusive."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar"><i class="fas fa-user-circle"></i></div>
+              <div><strong>Emily Chen</strong><br><span>Food Critic, The Daily Bite</span></div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-quote"><i class="fas fa-quote-left"></i></div>
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p>"We hosted our anniversary dinner here and it was magical. The ambiance, the cocktails, the lamb — everything exceeded our expectations."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar"><i class="fas fa-user-circle"></i></div>
+              <div><strong>James & Priya Patel</strong><br><span>Anniversary Guests</span></div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-quote"><i class="fas fa-quote-left"></i></div>
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>"A hidden gem. The farm-to-table philosophy is evident in every bite. The seasonal menu keeps me coming back every few months."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar"><i class="fas fa-user-circle"></i></div>
+              <div><strong>Robert Kim</strong><br><span>Regular Guest</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== RESERVATION SECTION ========== -->
+    <section id="reservation" class="reservation section">
+      <div class="container reservation-wrapper">
+        <div class="reservation-info">
+          <span class="section-tag">Reservation</span>
+          <h2>Book Your <span class="highlight">Table</span></h2>
+          <p>Join us for an unforgettable meal. Reserve online or call us directly at <strong>+1 (555) 789-0123</strong>.</p>
+          <div class="reservation-details">
+            <div class="reservation-item">
+              <i class="fas fa-clock"></i>
+              <div><strong>Hours</strong><br>Mon–Sun: 11:00 AM – 11:00 PM</div>
+            </div>
+            <div class="reservation-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div><strong>Location</strong><br>123 Culinary Lane, Downtown</div>
+            </div>
+            <div class="reservation-item">
+              <i class="fas fa-users"></i>
+              <div><strong>Large Parties</strong><br>For 8+ guests, please call us directly.</div>
+            </div>
+            <div class="reservation-item">
+              <i class="fas fa-info-circle"></i>
+              <div><strong>Note</strong><br>We hold tables for 15 minutes. Smart casual attire preferred.</div>
+            </div>
+          </div>
+        </div>
+        <form class="reservation-form" id="reservationForm">
+          <h3><i class="fas fa-calendar-check"></i> Make a Reservation</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" placeholder="John Doe" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" placeholder="john@example.com" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Phone *</label>
+              <input type="tel" id="phone" placeholder="+1 (555) 000-0000" required>
+            </div>
+            <div class="form-group">
+              <label for="guests">Guests *</label>
+              <select id="guests" required>
+                <option value="">Select party size</option>
+                <option>1 Guest</option>
+                <option>2 Guests</option>
+                <option>3 Guests</option>
+                <option>4 Guests</option>
+                <option>5 Guests</option>
+                <option>6 Guests</option>
+                <option>7 Guests</option>
+                <option>8+ Guests (call us)</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="date">Date *</label>
+              <input type="date" id="date" required>
+            </div>
+            <div class="form-group">
+              <label for="time">Time *</label>
+              <select id="time" required>
+                <option value="">Select time</option>
+                <option>11:00 AM</option>
+                <option>11:30 AM</option>
+                <option>12:00 PM</option>
+                <option>12:30 PM</option>
+                <option>1:00 PM</option>
+                <option>1:30 PM</option>
+                <option>5:00 PM</option>
+                <option>5:30 PM</option>
+                <option>6:00 PM</option>
+                <option>6:30 PM</option>
+                <option>7:00 PM</option>
+                <option>7:30 PM</option>
+                <option>8:00 PM</option>
+                <option>8:30 PM</option>
+                <option>9:00 PM</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Special Requests</label>
+            <textarea id="message" rows="3" placeholder="Allergies, celebrations, seating preferences..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Confirm Reservation <i class="fas fa-check"></i></button>
+          <div id="formFeedback" class="form-feedback"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <i class="fas fa-utensils"></i>
+          <span>Savory <span>&</span> Co.</span>
+        </div>
+        <p>Modern American cuisine crafted with passion. Locally sourced, seasonally inspired, always memorable.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Yelp"><i class="fab fa-yelp"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#reservation">Reservation</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Hours</h4>
+        <ul>
+          <li>Mon – Thu: 11 AM – 10 PM</li>
+          <li>Fri – Sat: 11 AM – 11 PM</li>
+          <li>Sunday: 10 AM – 9 PM</li>
+          <li>Happy Hour: 4 – 6 PM Daily</li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <ul>
+          <li><i class="fas fa-map-marker-alt"></i> 123 Culinary Lane, Downtown</li>
+          <li><i class="fas fa-phone-alt"></i> +1 (555) 789-0123</li>
+          <li><i class="fas fa-envelope"></i> hello@savoryandco.com</li>
+        </ul>
+        <a href="#reservation" class="footer-cta">Book a Table <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2025 Savory & Co. All rights reserved. | Demo website.</p>
+        <p>Privacy Policy • Terms of Service • Accessibility</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Separate JS file -->
+  <script src="script.js"></script>
+</body>
+</html>
